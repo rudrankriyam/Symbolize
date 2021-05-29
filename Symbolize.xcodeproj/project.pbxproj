@@ -11,6 +11,9 @@
 		0A074EEF2661BB6700DDA919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A074EEE2661BB6700DDA919 /* ContentView.swift */; };
 		0A074EF12661BB6800DDA919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A074EF02661BB6800DDA919 /* Assets.xcassets */; };
 		0A074EF42661BB6800DDA919 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A074EF32661BB6800DDA919 /* Preview Assets.xcassets */; };
+		0ABFDE692661C08800B3695C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABFDE682661C08800B3695C /* CardView.swift */; };
+		0ABFDE6D2661C0EA00B3695C /* SFSymbolsFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABFDE6A2661C0EA00B3695C /* SFSymbolsFinder.swift */; };
+		0ABFDE6E2661C0EA00B3695C /* SymbolCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABFDE6B2661C0EA00B3695C /* SymbolCategories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		0A074EF02661BB6800DDA919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A074EF32661BB6800DDA919 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A074EF52661BB6800DDA919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABFDE682661C08800B3695C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0ABFDE6A2661C0EA00B3695C /* SFSymbolsFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolsFinder.swift; sourceTree = "<group>"; };
+		0ABFDE6B2661C0EA00B3695C /* SymbolCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolCategories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,11 @@
 		0A074EEB2661BB6700DDA919 /* Symbolize */ = {
 			isa = PBXGroup;
 			children = (
+				0ABFDE6A2661C0EA00B3695C /* SFSymbolsFinder.swift */,
+				0ABFDE6B2661C0EA00B3695C /* SymbolCategories.swift */,
 				0A074EEC2661BB6700DDA919 /* SymbolizeApp.swift */,
 				0A074EEE2661BB6700DDA919 /* ContentView.swift */,
+				0ABFDE682661C08800B3695C /* CardView.swift */,
 				0A074EF02661BB6800DDA919 /* Assets.xcassets */,
 				0A074EF52661BB6800DDA919 /* Info.plist */,
 				0A074EF22661BB6800DDA919 /* Preview Content */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A074EEF2661BB6700DDA919 /* ContentView.swift in Sources */,
+				0ABFDE692661C08800B3695C /* CardView.swift in Sources */,
+				0ABFDE6D2661C0EA00B3695C /* SFSymbolsFinder.swift in Sources */,
 				0A074EED2661BB6700DDA919 /* SymbolizeApp.swift in Sources */,
+				0ABFDE6E2661C0EA00B3695C /* SymbolCategories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

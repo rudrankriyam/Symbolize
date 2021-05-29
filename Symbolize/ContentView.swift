@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    var columns = [GridItem(.adaptive(minimum: 85))]
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 16)
-                .stroke(lineWidth: 3)
-            
-            Text("Hello, world!")
+        VStack {
+            ScrollView {
+                LazyVGrid(columns: columns) {
+                    ForEach(SymbolCategories.devices.symbols, id: \.self) { symbol in
+                        CardView(imageName: symbol)
+                            .aspectRatio(2/3, contentMode: .fit)
+                    }
+                }
+            }
         }
         .padding(.horizontal)
-        .foregroundColor(.red)
     }
 }
 
